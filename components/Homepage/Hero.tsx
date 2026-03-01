@@ -285,11 +285,7 @@ const HeroWrapper = () => {
         icon: <Award className="h-5 w-5 text-muted-foreground" />,
       },
     ],
-    images: [
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=2070&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop",
-    ],
+    images: ["/hero/h1.webp", "/hero/h2.webp", "/hero/h3.webp"],
   };
 
   return (

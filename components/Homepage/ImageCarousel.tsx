@@ -4,10 +4,10 @@ import Image from "next/image";
 
 const DigitalMarketingCarousel = () => {
   const images = [
-    "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&h=400",
-    "https://images.unsplash.com/photo-1557838923-2985c318be48?auto=format&fit=crop&w=600&h=400",
-    "https://images.unsplash.com/photo-1533750349088-cd871a92f312?auto=format&fit=crop&w=600&h=400",
-    "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=600&h=400",
+    "/moving/m1.webp",
+    "/moving/m2.webp",
+    "/moving/m3.webp",
+    "/moving/m4.webp",
   ];
 
   // Two sets are enough for a CSS infinite loop
