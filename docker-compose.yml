@@ -1,12 +1,12 @@
 version: "3.8"
 
 services:
-  truescopemarketing:
+  truescope:
     build:
       context: .
       dockerfile: Dockerfile
-    image: truescopemarketing:latest
-    container_name: truescopemarketing
+    image: truescope:latest
+    container_name: truescope
     ports:
       - "3007:3000"
     env_file:
